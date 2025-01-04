@@ -47,7 +47,7 @@ On Windows machines, you can use **Git Bash** to execute this script. Git Bash p
    - Navigate to the directory containing the script in Git Bash.
    - Execute the script using:
      ```bash
-     ./ssh-config-monitor.sh
+     ./update.sh
      ```
 
 3. **Automate Execution**:
@@ -57,7 +57,7 @@ On Windows machines, you can use **Git Bash** to execute this script. Git Bash p
      ```
    - Add an entry to execute the script at your desired interval:
      ```bash
-     */5 * * * * /path/to/ssh-config-monitor.sh
+     */5 * * * * /path/to/update.sh
      ```
 
 ---
